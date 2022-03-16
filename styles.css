@@ -166,7 +166,7 @@ a:hover{
   color: hsl(12, 88%, 59%);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 375px) {
   body{
     text-align: center;
   }
