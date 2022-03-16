@@ -1,0 +1,205 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: hsl(228, 39%, 23%);
+  font-size: 16px;
+}
+.container-fluid{
+  padding-right: 27%;
+  padding-left: 5%;
+}
+
+.illus{
+  padding: 2%;
+  width: 75%;
+}
+
+.btn{
+  border-radius: 25px;
+}
+h1{
+  font-weight: 700;
+}
+h3{
+  font-weight: bold;
+}
+h4{
+  font-weight: 500;
+}
+p{
+  color: #92A9BD;
+}
+.navbar{
+  padding-bottom: 2rem;
+}
+.nav-item{
+  padding: 0.5% 7%;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 3%;
+}
+.logo{
+  width: 150%;
+  margin-bottom: 20px;
+  padding-right: 5%;
+  margin-right: 15%;
+}
+.large img{
+  width:150%;
+  margin: -50%;
+  margin-left: -30%;
+}
+.large button{
+  margin-top:-70%;
+}
+
+.Button1{
+  background-color: hsl(12, 88%, 59%);
+  margin-left: 20%;
+}
+
+.about_Manage{
+  padding-top: 2%;
+}
+
+.about_Manage_text{
+  padding-left: 3%;
+}
+
+.about_Manage_text p{
+  margin-right: 15%;
+}
+
+.about_Manage ol{
+margin-right: 15%;
+}
+
+.about_Manage li h4{
+  line-height: normal;
+}
+
+.about_Manage li p{
+  font-size: 1rem;
+}
+
+.about_Manage img{
+  width: 100%;
+  margin-left: -75%;
+}
+
+.row{
+  padding-left: 3%;
+}
+.about-bg{
+  margin-left: -75%;
+}
+
+#testimonials{
+  margin: auto;
+  text-align: center;
+}
+
+.testimonials-heading{
+  margin-top: -5%;
+  padding-bottom: 4%;
+}
+
+.carousel-inner .carousel-item {
+  margin: auto;
+  width: 50%;
+}
+
+.card{
+  margin-left: 30%;
+  color: #92A9BD;
+}
+
+.card h2{
+  color: hsl(228, 39%, 23%);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.testimonial-image{
+  width: 30%;
+  margin-left: 25%;
+  border-radius: 100%;
+}
+#testimonials button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.get_started{
+  color: #fff;
+  background-color: hsl(12, 88%, 59%);
+  padding: 4% 6%;
+}
+.get_started1{
+  background-image: url(images/bg-tablet-pattern.svg);
+}
+.footer{
+  background:#111;
+  color: #fff;
+  padding: 5% 7%;
+}
+.logo-footer{
+  width: 100%;
+  margin-bottom: 25%;
+  padding: 2%;
+  justify-content: center;
+}
+
+ion-icon{
+  width: 15%;
+  color:hsl(0, 0%, 98%);
+}
+
+a{
+  color:#fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: hsl(12, 88%, 59%);
+}
+
+@media(max-width: 500px) {
+  body{
+    text-align: center;
+  }
+  .testimonials-heading{
+    margin-top: 5%;
+  }
+  .tablet_about{
+    display: none !important;
+  }
+  .Button1 {
+     display: none !important;
+  }
+  .tablet_first {
+     display: none !important;
+  }
+  .navbar-toggler{
+    margin-top: -7%;
+    margin-right: -30%;
+  }
+  .about ol li h4{
+    background-color: hsl(25, 75%, 80%);
+  }
+  .get_started{
+    text-align: center;
+  }
+  ion-icon{
+    width:15%;
+    padding-bottom: 8%;
+  }
+  .logo-footer{
+    display:none !important;
+  }
+  .logo-last{
+    display:contents !important;
+  }
+}
